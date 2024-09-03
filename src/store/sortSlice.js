@@ -1,19 +1,19 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  sortType: "cheapest",
-};
+  sortType: 'cheapest',
+}
 
 const sortSlice = createSlice({
-  name: "sort",
+  name: 'sort',
   initialState,
   reducers: {
     setSortType: (state, action) => {
-      state.sortType = action.payload;
+      state.sortType = action.payload
     },
   },
-});
+})
 
-export const { setSortType } = sortSlice.actions;
+export const { setSortType } = sortSlice.actions
 
-export default sortSlice.reducer;
+export default sortSlice.reducer

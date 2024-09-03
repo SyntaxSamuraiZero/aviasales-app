@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "OpenSans-Regular";
-  src: url("../../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf")
-    format("truetype");
+  font-family: 'OpenSans-Regular';
+  src: url('../../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
 }
 
 .ant-checkbox-wrapper {
   position: relative;
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
   line-height: 20px;
   margin-bottom: 20px;
   z-index: 1;
@@ -59,7 +58,7 @@
 }
 
 .ant-checkbox-wrapper:hover::before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: -10px;

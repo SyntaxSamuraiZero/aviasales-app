@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "OpenSans-SemiBold";
-  src: url("../../assets/fonts/Open_Sans/static/OpenSans-SemiBold.ttf")
-    format("truetype");
+  font-family: 'OpenSans-SemiBold';
+  src: url('../../assets/fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
 }
 
 .my-radio-group {
@@ -10,7 +9,7 @@
 }
 
 .my-radio-button {
-  font-family: "OpenSans-SemiBold";
+  font-family: 'OpenSans-SemiBold';
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.5px;

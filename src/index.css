@@ -1,13 +1,12 @@
 @import-normalize;
 
 @font-face {
-  font-family: "OpenSans-SemiBold";
-  src: url("./assets/fonts/Open_Sans/static/OpenSans-SemiBold.ttf")
-    format("truetype");
+  font-family: 'OpenSans-SemiBold';
+  src: url('./assets/fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
 }
 
 html {
-  font-family: "OpenSans-SemiBold";
+  font-family: 'OpenSans-SemiBold';
   box-sizing: border-box;
   background: #f3f7fa;
 }

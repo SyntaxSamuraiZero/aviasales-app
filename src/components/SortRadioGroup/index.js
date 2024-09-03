@@ -1,3 +1,3 @@
-import SortRadioGroup from "./SortRadioGroup";
+import SortRadioGroup from './SortRadioGroup'
 
-export default SortRadioGroup;
+export default SortRadioGroup

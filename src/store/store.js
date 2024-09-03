@@ -1,7 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
-import checkboxReducer from "./checkboxSlice";
-import sortReducer from "./sortSlice";
-import ticketsReducer from "./ticketsSlice";
+import { configureStore } from '@reduxjs/toolkit'
+
+import checkboxReducer from './checkboxSlice'
+import sortReducer from './sortSlice'
+import ticketsReducer from './ticketsSlice'
 
 const store = configureStore({
   reducer: {
@@ -9,6 +10,6 @@ const store = configureStore({
     sort: sortReducer,
     tickets: ticketsReducer,
   },
-});
+})
 
-export default store;
+export default store
