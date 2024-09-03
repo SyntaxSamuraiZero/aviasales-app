@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../../assets/fonts/Open_Sans/static/OpenSans-SemiBold.ttf")
+    format("truetype");
+}
+
+.my-radio-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.my-radio-button {
+  font-family: "OpenSans-SemiBold";
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  height: 50px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
